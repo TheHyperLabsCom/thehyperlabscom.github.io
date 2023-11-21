@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <META charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>
+        My Super App
+    </title>
+    <style>
+        body{
+          background-color: #fef0db;
+          background-image: url("img/bg2.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          margin: 0;
+        }
+        #content{
+          width: 100%;
+          background-size: cover;
+          background-image: url(img/shape2.svg); 
+          height: 100vh; 
+          background-repeat: no-repeat;
+        }
+        #logo{
+          width: max(35vh, 300px);
+        }
+
+        .pad {
+          padding-left: 7.5vh;
+          padding-top: 7.5vh;
+        }
+
+        .text{
+          color:white;
+          font-family: "Barlow";
+          text-shadow: 1px 1px 2px #000000;
+        }
+
+        h1{
+          text-transform: uppercase;
+          font-size: 52px;
+          
+          width: 20vw;
+        }
+
+        @font-face {
+          font-family: 'Barlow';
+          src: url(fonts/Barlow-Bold.ttf) format('truetype');
+        }
+        a{
+          color: white;
+        }
+        #content-parent {
+          display: flex;
+          justify-content: center;
+          align-items: left;
+          flex-direction: column;
+          padding-top:12vh;
+          padding-left:14vh;
+          
+        }
+
+        @media only screen and (max-width: 768px) {
+          #logo-parent{
+            padding-top: 2.5vh;
+            text-align: center;
+          }
+
+          #content-parent{
+            align-items: center;
+            padding: 0;
+            height: 80vh;
+          }
+          
+          .pad {
+            padding-left: 0;
+            padding-top: 5vh;
+          }
+          
+          h1{
+            padding-left: 5vh;
+            width: auto;
+            font-size: 48px;
+          }
+        }         
+        
+
+    </style>
+  </head>
+<body style="margin:0; width: 100%;">
+<div id="content";>
+  <div id="logo-parent">
+    <a href="/" target="blank"><img id="logo" class="pad" src="img/logo1.svg" alt="logo"></a>
+  </div>
+  
+  
+  <div id="content-parent" class="pad">
+    <h1 class="text">Bitcoin retirement with self-custodial smsf</h1>
+
+    <h2 class="text">Say <a href="mailto:hello@my-super.app">hello@my-super.app</a>!</h1>
+  
+  </div>
+</div>
+  </body>
+</html>
