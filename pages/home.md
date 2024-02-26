@@ -1,20 +1,20 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
+title: "The Hyperlabs"
 description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
 header_transparent: true
-meta_title: Jekyll Advance - Premium Jekyll Theme
+meta_title: The Hyperlabs
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
+  heading: "The Hyperlabs"
   sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
-  text_color: "#FFFFFF"
-  background_color: "#1d2830"
-  background_gradient: true
-  background_image: "/assets/images/gen/home/home-1-large.webp"
-  background_image_blend_mode: overlay # "overlay", "multiply", "screen"
+  text_color: "#222831"
+  background_color: "#FF5722"
+#  background_gradient: true
+#  background_image: "/assets/images/gen/home/bg2.webp"
+#  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "660px"

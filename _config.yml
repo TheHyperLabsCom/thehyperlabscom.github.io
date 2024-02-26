@@ -2,7 +2,7 @@
 # Jekyll Config
 # --------------------
 baseurl: ""
-url: "https://jekyll-advance.netlify.app"
+url: "https://thehyperlabs.com"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
@@ -84,35 +84,36 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "Jekyll Advance"
+title: "The Hyperlabs"
 category_dir: category
 
 colors:
   #light-mode colors
-  primary_bg: "#2b3af7"
-  primary_bg_2: "#424ff8"
-  primary_bg_3: "#702bf7"
-  primary_text: "#fdfcf9"
-  base_bg: "#ffffff"
-  base_bg_2: "#f8f9ff"
-  base_bg_3: "#eef2f9"
-  text: "#0d042b"
-  text_2: "#3b364c"
-  logo_text: "#2b3af7"
-  header_text: "#0d042b"
+  primary_bg: "#222831"
+  primary_bg_2: "#5D7089"
+  primary_bg_3: "#FF5722"
+  primary_text: "#EEEEEE"
+  base_bg: "#5D7089"
+  base_bg_2: "#EEEEEE"
+  base_bg_3: "#FF5722"
+  text: "#222831"
+  text_2: "#222831"
+  logo_text: "#222831"
+  header_text: "#222831"
 
   # dark-mode colors
-  primary_bg_dark: "#2b3af7"
-  primary_bg_2_dark: "#424ff8"
-  primary_bg_3_dark: "#702bf7"
-  primary_text_dark: "#fdfcf9"
-  base_bg_dark: "#0f0f10"
-  base_bg_2_dark: "#1a191c"
-  base_bg_3_dark: "#222124"
-  text_dark: "#f5f5ec"
-  text_2_dark: "#b6c3d6"
-  logo_text_dark: "#2b3af7"
-  header_text_dark: "#f5f5ec"
+  primary_bg_dark: "#EEEEEE"
+  primary_bg_2_dark: "#5D7089"
+  primary_bg_3_dark: "#FF5722"
+  primary_text_dark: "#222831"
+  base_bg_dark: "#222831"
+  base_bg_2_dark: "#5D7089"
+  base_bg_3_dark: "#FF5722"
+  text_dark: "#EEEEEE"
+  text_2_dark: "#EEEEEE"
+  logo_text_dark: "#EEEEEE"
+  header_text_dark: "#EEEEEE"
+
 
 fonts:
   use_google_fonts: false
@@ -124,15 +125,15 @@ fonts:
   logo: "Lato"
 
 logo:
-  logo_text: "Jekyll Advance"
-  logo_image: assets/images/logo/logo.png
-  logo_image_mobile: assets/images/logo/logo-mobile.png
-  logo_image_invert: assets/images/logo/logo-invert.png
-  logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
-  logo_image_desktop_height: "30px"
-  logo_image_desktop_width: "132px"
-  logo_image_mobile_height: "30px"
-  logo_image_mobile_width: "34px"
+  logo_text: "The Hyperlabs"
+  logo_image: assets/images/logo/logo.svg
+  logo_image_mobile: assets/images/logo/logo.svg
+  logo_image_invert: assets/images/logo/logo.svg
+  logo_image_invert_mobile: assets/images/logo/logo.svg
+  logo_image_desktop_height: "60px"
+  logo_image_desktop_width: "264px"
+  logo_image_mobile_height: "60px"
+  logo_image_mobile_width: "64px"
   show_logo_image_on_mobile: true
   show_logo_image_on_desktop: true
   show_logo_text_on_mobile: false
@@ -150,8 +151,8 @@ open_graph:
 darkmode:
   enable_dark_mode: true
   show_dark_mode_toggle_in_header: false
-  show_dark_mode_toggle_in_bottom: true
-  show_dark_mode_toggle_in_mobile_menu: true
+  show_dark_mode_toggle_in_bottom: false
+  show_dark_mode_toggle_in_mobile_menu: false
 
 cookie_banner:
   enabled: false
@@ -187,7 +188,7 @@ menu:
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "Jekyll Advance"
+  footer_title: "The Hyperlabs"
   footer_description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
   enable_social_media_icons: true
   enable_contact_details: true
@@ -201,7 +202,7 @@ footer:
 bottom:
   enable_bottom: true # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2023 Zerostatic Themes"
+  copyright_text: "© 2023-2024 The Hyperlabs"
   show_rss_icon: true
 
 sidebar:
