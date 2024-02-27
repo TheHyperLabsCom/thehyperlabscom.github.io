@@ -2,30 +2,39 @@
 layout: list
 collection: "projects"
 title: Projects
-description: "A selection of our work and projects."
+description: "In Bitcoin's light, we craft, to free humanity from chains, our crafty draft."
 permalink: "/projects/"
 header_transparent: true
 
 hero:
   enabled: true
   heading: "Projects"
-  sub_heading: "Our portfolio of work and projects."
-  text_color: "#222831"
-  background_color: "#FF5722"
+  sub_heading: "In Bitcoin's light, we craft, to free humanity from chains, our crafty draft."
+  text_color: "#FFFFFF"
+  background_color: "#222831"
+#  background_gradient: true
+  background_image: "/assets/images/gen/home/bg2.webp"
+  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
-  height: "0px"
-
   buttons:
-    enabled: false
+    enabled: true
     list:
       - text: "Contact Us"
         url: "/contact"
         external: false
         fa_icon: false
+        size: large # "small", "normal", "large"
+        outline: false
+        style: "light" # "light", "dark", "primary"
+      - text: "About"
+        url: "/about"
+        external: false
+        fa_icon: false
         size: large
         outline: true
         style: "light"
+
 
 grid:
   collection: "projects"
