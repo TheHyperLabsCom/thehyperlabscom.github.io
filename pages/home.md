@@ -9,7 +9,7 @@ meta_title: The Hyperlabs
 hero:
   enabled: true
   heading: "The Hyperlabs"
-  sub_heading: "Software house that builds on top of and for Bitcoin."
+  sub_heading: "Those who build, sculpt the currency of the future."
   text_color: "#FFFFFF"
   background_color: "#222831"
 #  background_gradient: true
