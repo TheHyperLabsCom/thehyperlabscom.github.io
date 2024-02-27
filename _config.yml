@@ -103,11 +103,11 @@ colors:
 
   # dark-mode colors
   primary_bg_dark: "#EEEEEE"
-  primary_bg_2_dark: "#5D7089"
+  primary_bg_2_dark: "#2D4059"
   primary_bg_3_dark: "#FF5722"
   primary_text_dark: "#222831"
   base_bg_dark: "#222831"
-  base_bg_2_dark: "#5D7089"
+  base_bg_2_dark: "#2D4059"
   base_bg_3_dark: "#FF5722"
   text_dark: "#EEEEEE"
   text_2_dark: "#EEEEEE"

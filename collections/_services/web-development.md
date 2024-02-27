@@ -13,11 +13,11 @@ hero:
   enabled: true
   heading: "Web Development"
   sub_heading: "Our experienced software engineers develop websites and desktop applications"
-  text_color: "#FFFFFF"
-  background_color: ""
-  background_gradient: true
-  background_image_blend_mode: false # "overlay", "multiply", "screen"
-  background_image: "/assets/images/gen/services/service-1-large.webp"
+  text_color: "#222831"
+  background_color: "#FF5722"
+#  background_gradient: true
+#  background_image_blend_mode: false # "overlay", "multiply", "screen"
+#  background_image: "/assets/images/gen/services/service-1-large.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
   height: 660px

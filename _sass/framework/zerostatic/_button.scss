@@ -14,13 +14,13 @@
   border: 1px solid transparent;
   outline: none;
   &:hover {
-    background-color: var(--color-primary-bg-2);
+    background-color: var(--color-primary-bg-3);
     color: var(--color-primary-text);
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
   }
   &.button-light {
-    background: var(--color-base-bg);
+    background: var(--color-base-bg-3);
     color: var(--color-primary-bg);
   }
   &.button-outline {

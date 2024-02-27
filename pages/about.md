@@ -2,18 +2,21 @@
 layout: basic
 title: "About Us"
 date: 2018-11-28T15:15:34+10:00
-header_transparent: false
+header_transparent: true
 permalink: "/about/"
 description: "Business plan hackathon handshake responsive web design."
 image: "/assets/images/gen/content/content-5.webp"
 
 hero:
-  enabled: false
+  enabled: true
   heading: "About Us"
   sub_heading: "Business plan hackathon handshake responsive web design."
-  background_image: false
-  background_image_blend_mode: false
-  full_height_mobile: false
+  text_color: "#222831"
+  background_color: "#FF5722"
+  fullscreen_mobile: true
+  fullscreen_desktop: true
+  height: "0px"
+
   buttons:
     enabled: false
     list:

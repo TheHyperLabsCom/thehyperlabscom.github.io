@@ -35,6 +35,10 @@
   .hero-text {
     flex: 0;
     margin: auto 0;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: none ;
     h1 {
       margin-bottom: 20px;
       color: inherit;

@@ -11,13 +11,12 @@ hero:
   heading: "Our Team"
   sub_heading: ""
   text_color: "#FFFFFF"
-  background_color: ""
-  background_gradient: true
-  background_image: false
-  background_image_blend_mode: overlay # "overlay", "multiply", "screen"
-  fullscreen_mobile: false
-  fullscreen_desktop: false
-  height: "330px"
+  background_color: "#222831"
+#  background_gradient: true
+#  background_image: "/assets/images/gen/home/bg2.webp"
+#  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
+  fullscreen_mobile: true
+  fullscreen_desktop: true
   buttons:
     enabled: false
     list:

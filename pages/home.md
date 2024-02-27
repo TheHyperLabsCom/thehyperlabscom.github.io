@@ -9,28 +9,28 @@ meta_title: The Hyperlabs
 hero:
   enabled: true
   heading: "The Hyperlabs"
-  sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
-  text_color: "#222831"
-  background_color: "#FF5722"
+  sub_heading: "Software house that builds on top of and for Bitcoin."
+  text_color: "#FFFFFF"
+  background_color: "#222831"
 #  background_gradient: true
-#  background_image: "/assets/images/gen/home/bg2.webp"
-#  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
+  background_image: "/assets/images/gen/home/bg2.webp"
+  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
-  fullscreen_desktop: false
-  height: "660px"
+  fullscreen_desktop: true
+#  height: "500px"
   buttons:
-    enabled: false
+    enabled: true
     list:
-      - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
-        external: true
+      - text: "Contact Us"
+        url: "/contact"
+        external: false
         fa_icon: false
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "Documentation"
-        url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
-        external: true
+      - text: "About"
+        url: "/about"
+        external: false
         fa_icon: false
         size: large
         outline: true
@@ -47,7 +47,7 @@ services:
   prevent_click: false
 
 intro:
-  enabled: true
+  enabled: false
   align: left
   image: "/assets/images/gen/content/content-5-thumbnail.webp"
   heading: "We've helped hundreds of people grow their business online."
@@ -75,7 +75,7 @@ intro:
         style: "primary"
 
 partners:
-  enabled: true
+  enabled: false
   limit: 5
   sort: "weight" # 'date'
 
@@ -91,7 +91,7 @@ projects:
   prevent_click: false
 
 outro:
-  enabled: true
+  enabled: false
   align: center
   image: false
   heading: Get Started Today
