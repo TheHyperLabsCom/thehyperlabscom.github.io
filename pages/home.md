@@ -37,7 +37,7 @@ hero:
         style: "light"
 
 services:
-  enabled: false
+  enabled: true
   heading: "Our Services"
   sub_heading: ""
   limit: 6

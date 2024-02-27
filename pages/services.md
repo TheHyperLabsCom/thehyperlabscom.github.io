@@ -3,7 +3,7 @@ layout: list
 title: Services
 description: "A selection of our digital services"
 permalink: "/services/"
-header_transparent: true
+header_transparent: false
 
 hero:
   enabled: true
