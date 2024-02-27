@@ -89,17 +89,17 @@ category_dir: category
 
 colors:
   #light-mode colors
-  primary_bg: "#222831"
-  primary_bg_2: "#5D7089"
+  primary_bg: "#2D4059"
+  primary_bg_2: "#CCCCCC"
   primary_bg_3: "#FF5722"
-  primary_text: "#EEEEEE"
-  base_bg: "#5D7089"
+  primary_text: "#222831"
+  base_bg: "#CCCCCC"
   base_bg_2: "#EEEEEE"
   base_bg_3: "#FF5722"
-  text: "#222831"
-  text_2: "#222831"
-  logo_text: "#222831"
-  header_text: "#222831"
+  text: "#2D4059"
+  text_2: "#2D4059"
+  logo_text: "#EEEEEE"
+  header_text: "#EEEEEE"
 
   # dark-mode colors
   primary_bg_dark: "#EEEEEE"
