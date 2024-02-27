@@ -2,14 +2,14 @@
 layout: home
 permalink: "/"
 title: "The Hyperlabs"
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+description: "Those who build, sculpt the currency of the future. We are the builders."
 header_transparent: true
 meta_title: The Hyperlabs
 
 hero:
   enabled: true
   heading: "The Hyperlabs"
-  sub_heading: "Those who build, sculpt the currency of the future."
+  sub_heading: "Those who build, sculpt the currency of the future. <br/> We are the builders."
   text_color: "#FFFFFF"
   background_color: "#222831"
 #  background_gradient: true
