@@ -9,7 +9,7 @@ meta_title: The Hyperlabs
 hero:
   enabled: true
   heading: "The Hyperlabs"
-  sub_heading: "Those who build, sculpt the currency of the future. <br/> We are the builders."
+  sub_heading: "Those who build, sculpt the currency of the future. <br/> Join us."
   text_color: "#FFFFFF"
   background_color: "#222831"
 #  background_gradient: true
