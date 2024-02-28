@@ -1,35 +1,40 @@
 ---
-title: "Book Design"
-description: "In contrast subsymbolic processing specifies no such rules a priori and relies on emergent properties of processing units."
+title: "Fairide"
+description: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You"
 date: 2018-12-20
 weight: 1
 header_transparent: false
-thumbnail: "/assets/images/gen/projects/project-1-1-thumbnail.webp"
-image: "/assets/images/gen/projects/project-1-1.webp"
-client: "Zero Developments Pty Ltd"
+thumbnail: "/assets/images/gen/projects/fairide.png"
+image: "/assets/images/gen/projects/fairide.png"
+client: "Fairide Pty Ldt"
 
 hero:
   enabled: true
-  heading: "Book Design"
-  sub_heading: "In contrast subsymbolic processing specifies no such rules a priori and relies on emergent properties of processing units."
-  text_color: "#000000"
-  background_color: ""
-  background_gradient: false
-  background_image: "/assets/images/gen/projects/project-1-4.webp"
-  background_image_blend_mode: false
-  fullscreen_mobile: false
-  fullscreen_desktop: false
-  height: "600px"
+  heading: "Fairide"
+  sub_heading: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You."
+  text_color: "#FFFFFF"
+  background_color: "#222831"
+  background_image: "/assets/images/gen/projects/fairide.png"
+  background_image_blend_mode: overlay
+  fullscreen_mobile: true
+  fullscreen_desktop: true
   buttons:
-    enabled: false
+    enabled: true
     list:
-      - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
-        external: true
+      - text: "Contact Us"
+        url: "/contact"
+        external: false
+        fa_icon: false
+        size: large # "small", "normal", "large"
+        outline: false
+        style: "light" # "light", "dark", "primary"
+      - text: "About"
+        url: "/about"
+        external: false
         fa_icon: false
         size: large
         outline: true
-        style: "primary"
+        style: "light"
 ---
 
 ## We helped the city of brisbane rebuild their old water recycling plant and reclaimation works.
@@ -38,7 +43,7 @@ Markdown is a lightweight markup language with plain-text-formatting syntax. Its
 
 Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-2.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/gig-gossip.webp" title="Gig-Gossip"  caption="An open source protocol" link="https://gig-gossip.org" target="_blank" %}
 
 ## History
 

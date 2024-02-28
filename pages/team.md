@@ -4,24 +4,29 @@ title: "Team"
 description: "Meet our dedicated team."
 permalink: "/team/"
 date: 2018-02-12T15:37:57+07:00
-header_transparent: true
+header_transparent: false
 
 hero:
   enabled: true
   heading: "Our Team"
-  sub_heading: ""
-  text_color: "#FFFFFF"
-  background_color: "#222831"
-#  background_gradient: true
-#  background_image: "/assets/images/gen/home/bg2.webp"
-#  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
+  sub_heading: "We love Bitcoin"
+  text_color: "#222831"
+  background_color: "#FF5722"
   fullscreen_mobile: true
   fullscreen_desktop: true
+  height: "0px"
   buttons:
     enabled: false
     list:
       - text: "Contact Us"
         url: "/contact"
+        external: false
+        fa_icon: false
+        size: large # "small", "normal", "large"
+        outline: false
+        style: "light" # "light", "dark", "primary"
+      - text: "About"
+        url: "/about"
         external: false
         fa_icon: false
         size: large

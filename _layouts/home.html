@@ -82,7 +82,7 @@ body_classes: page-home
 {% endif %}
 
 {% if page.intro.enabled %}
-  <div class="section">
+  <div class="section section-base-bg-3">
     <div class="container">
       {% include framework/info.html
       heading=page.intro.heading
@@ -102,8 +102,13 @@ body_classes: page-home
 {% assign partners_limit = page.partners.limit | default: 4 %}
 {% assign partners_sort = page.partners.sort | default: 'weight' %}
 {% if partners.size > 0 %}
-<div class="section pt-0 partners">
+<div class="section partners section-base-bg-3">
   <div class="container">
+    <div class="col-12">
+      <div class="grid-header grid-header-align-center">
+        <h2>Our Partners</h2>
+      </div>
+    </div>
     <div class="row justify-content-center align-items-center">
       {% for partner in partners limit: partners_limit %}
       <div class="col-4 col-lg-2 text-center mb-1 mt-1">

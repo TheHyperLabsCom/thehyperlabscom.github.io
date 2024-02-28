@@ -1,35 +1,40 @@
 ---
-title: "Clothing Range"
-description: "Business impact we need to crystallize a plan churning anomalies dogpile that it's about managing expectations."
+title: "Fairide"
+description: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You"
 date: 2018-12-20
-weight: 4
+weight: 1
 header_transparent: false
-thumbnail: "/assets/images/gen/projects/project-4-3-thumbnail.webp"
-image: "/assets/images/gen/projects/project-4-3.webp"
-client: "RGA Agency"
+thumbnail: "/assets/images/gen/projects/fairide.png"
+image: "/assets/images/gen/projects/fairide.png"
+client: "Fairide Pty Ldt"
 
 hero:
   enabled: true
-  heading: "Clothing Range"
-  sub_heading: "Business impact we need to crystallize a plan churning anomalies dogpile that it's about managing expectations."
+  heading: "Fairide"
+  sub_heading: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You."
   text_color: "#FFFFFF"
-  background_color: ""
-  background_gradient: false
-  background_image: "/assets/images/gen/projects/project-4-7.webp"
-  background_image_blend_mode: false
-  fullscreen_mobile: false
-  fullscreen_desktop: false
-  height: "600px"
+  background_color: "#222831"
+  background_image: "/assets/images/gen/projects/fairide.png"
+  background_image_blend_mode: overlay
+  fullscreen_mobile: true
+  fullscreen_desktop: true
   buttons:
-    enabled: false
+    enabled: true
     list:
-      - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
-        external: true
+      - text: "Contact Us"
+        url: "/contact"
+        external: false
+        fa_icon: false
+        size: large # "small", "normal", "large"
+        outline: false
+        style: "light" # "light", "dark", "primary"
+      - text: "About"
+        url: "/about"
+        external: false
         fa_icon: false
         size: large
         outline: true
-        style: "primary"
+        style: "light"
 ---
 
 ## We helped the city of brisbane rebuild their old water recycling plant and reclaimation works.
@@ -38,7 +43,7 @@ Markdown is a lightweight markup language with plain-text-formatting syntax. Its
 
 Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-4-2.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/gig-gossip.webp" title="Gig-Gossip"  caption="An open source protocol" link="https://gig-gossip.org" target="_blank" %}
 
 ## History
 
@@ -48,7 +53,7 @@ John Gruber created the Markdown language in 2004 in collaboration with Aaron Sw
 
 To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-4-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
 
 ## Example
 

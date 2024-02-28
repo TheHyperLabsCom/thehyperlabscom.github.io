@@ -1,20 +1,20 @@
 ---
-title: "Gig-Gossip"
-description: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
+title: "Fairide"
+description: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You"
 date: 2018-12-20
 weight: 1
 header_transparent: false
-thumbnail: "/assets/images/gen/projects/gig-gossip.webp"
-image: "/assets/images/gen/projects/gig-gossip.webp"
-client: "Open Source"
+thumbnail: "/assets/images/gen/projects/fairide.png"
+image: "/assets/images/gen/projects/fairide.png"
+client: "Fairide Pty Ldt"
 
 hero:
   enabled: true
-  heading: "Gig-Gossip protocol"
-  sub_heading: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
+  heading: "Fairide"
+  sub_heading: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You."
   text_color: "#FFFFFF"
   background_color: "#222831"
-  background_image: "/assets/images/gen/projects/gig-gossip.webp"
+  background_image: "/assets/images/gen/projects/fairide.png"
   background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: true
