@@ -17,11 +17,18 @@ hero:
   background_image: "/assets/images/gen/projects/gig-gossip.webp"
   background_image_blend_mode: overlay
   fullscreen_mobile: true
-  fullscreen_desktop: false
-  height: 400px
+  fullscreen_desktop: true
   buttons:
     enabled: true
     list:
+      - text: "Scroll Down &nbsp;"
+        url: "https://gig-gossip.org/"
+        external: false
+        fa_icon: false
+        scroll_down: true
+        size: large
+        outline: false
+        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false
@@ -29,7 +36,7 @@ hero:
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "About Gig-Gossip"
+      - text: "Visit Gig-Gossip"
         url: "https://gig-gossip.org/"
         external: true
         fa_icon: false
@@ -56,6 +63,11 @@ The NOSTR protocol further enhances Gig-Gossip, providing a general-purpose, dis
 ### Join the Movement
 
 Gig-Gossip is more than just a protocol—it's a movement towards a fairer, more transparent, and inclusive gig economy. By participating, you're joining a community committed to empowerment, innovation, and the transformative power of decentralized technology. Whether you're a service provider aiming to broaden your reach or a customer seeking reliable services, Gig-Gossip provides the necessary tools and support for success.
+
+<div class='col-12' style="background-color: white">
+<img src="https://github.com/DontTrustVerifyOrg/gig-gossip/raw/main/whitepaper/centdecent.png"/>
+</div>
+Centralized vs. Gig-Gossip
 
 ### Looking Ahead
 

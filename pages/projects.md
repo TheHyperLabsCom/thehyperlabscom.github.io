@@ -10,14 +10,25 @@ hero:
   enabled: true
   heading: "Projects"
   sub_heading: "In Bitcoin's light, we craft, to free humanity from chains, our crafty draft."
-  text_color: "#222831"
-  background_color: "#FF5722"
+  text_color: "#FFFFFF"
+  background_color: "#222831"
+#  background_gradient: true
+  background_image: "/assets/images/gen/home/bg2.webp"
+  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
-  height: "0px"
+#  height: "500px"
   buttons:
-    enabled: false
+    enabled: true
     list:
+      - text: "Scroll Down &nbsp;"
+        url: "/projects/gig-gossip#start"
+        external: false
+        fa_icon: false
+        scroll_down: true
+        size: large
+        outline: false
+        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false
@@ -25,7 +36,7 @@ hero:
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "About"
+      - text: "About us"
         url: "/about"
         external: false
         fa_icon: false

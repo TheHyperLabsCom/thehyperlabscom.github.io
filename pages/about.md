@@ -19,13 +19,23 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: true
   buttons:
-    enabled: false
+    enabled: true
     list:
-      - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
-        external: true
+      - text: "Scroll Down &nbsp;"
+        url: "/projects/gig-gossip#start"
+        external: false
         fa_icon: false
+        scroll_down: true
         size: large
+        outline: false
+        style: "none"
+      - text: "Contact Us"
+        url: "/contact"
+        external: false
+        fa_icon: false
+        size: large # "small", "normal", "large"
+        outline: false
+        style: "light" # "light", "dark", "primary"
 ---
 
 # Creating Modern Websites

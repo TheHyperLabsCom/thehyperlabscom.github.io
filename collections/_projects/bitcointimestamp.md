@@ -1,11 +1,11 @@
 ---
-title: "Fairide"
-description: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You"
+title: "Bitcoin Timestamps"
+description: "Timestamp documents on Bitcoin blockchain"
 date: 2018-12-20
 weight: 1
 header_transparent: false
-thumbnail: "/assets/images/gen/projects/fairide.png"
-image: "/assets/images/gen/projects/fairide.png"
+#thumbnail: "/assets/images/gen/projects/fairide.png"
+#image: "/assets/images/gen/projects/fairide.png"
 client: "Fairide Pty Ldt"
 
 hero:

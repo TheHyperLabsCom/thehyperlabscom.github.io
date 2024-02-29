@@ -8,12 +8,16 @@ main:
     child:
       - name: "Gig-Gossip Protocol"
         url: /projects/gig-gossip//
-      - name: "Special Edition"
-        url: /projects/special-edition/
-      - name: "Master System"
-        url: /projects/master-system/
-      - name: "Clothing Range"
-        url: /projects/clothing-range/
+      - name: "Fairide"
+        url: /projects/fairide/
+      - name: "MySuperApp"
+        url: /projects/mysuperapp/
+      - name: "Swap FIAT<->BTC"
+        url: /projects/swap/
+      - name: "Wallet"
+        url: /projects/wallet/
+      - name: "Bitcoin Timestamp"
+        url: /projects/bitcointimestamp/
   - name: Services
     url: /services/
     weight: 1

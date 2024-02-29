@@ -9,16 +9,34 @@ hero:
   enabled: true
   heading: "Services"
   sub_heading: "We offer a complete range of digital services."
-  text_color: "#222831"
-  background_color: "#FF5722"
+  text_color: "#FFFFFF"
+  background_color: "#222831"
+#  background_gradient: true
+  background_image: "/assets/images/gen/home/HL_back.png"
+  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
-  height: "0px"
+#  height: "500px"
   buttons:
-    enabled: false
+    enabled: true
     list:
+      - text: "Scroll Down &nbsp;"
+        url: "/projects/gig-gossip#start"
+        external: false
+        fa_icon: false
+        scroll_down: true
+        size: large
+        outline: false
+        style: "none"
       - text: "Contact Us"
         url: "/contact"
+        external: false
+        fa_icon: false
+        size: large # "small", "normal", "large"
+        outline: false
+        style: "light" # "light", "dark", "primary"
+      - text: "About us"
+        url: "/about"
         external: false
         fa_icon: false
         size: large

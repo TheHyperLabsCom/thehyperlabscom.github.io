@@ -21,6 +21,14 @@ hero:
   buttons:
     enabled: true
     list:
+      - text: "Scroll Down &nbsp;"
+        url: "/projects/gig-gossip#start"
+        external: false
+        fa_icon: false
+        scroll_down: true
+        size: large
+        outline: false
+        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false
@@ -83,7 +91,7 @@ projects:
   enabled: true
   heading: "Our Projects"
   sub_heading: ""
-  limit: 6
+  limit: 7
   columns: 3
   sort: "weight" # 'date'
   view_more_button_text: "View All Projects"

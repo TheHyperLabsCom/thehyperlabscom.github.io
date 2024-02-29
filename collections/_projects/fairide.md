@@ -1,8 +1,8 @@
 ---
 title: "Fairide"
 description: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You"
-date: 2018-12-20
-weight: 1
+date: 2024-01-01
+weight: 2
 header_transparent: false
 thumbnail: "/assets/images/gen/projects/fairide.png"
 image: "/assets/images/gen/projects/fairide.png"
@@ -21,6 +21,14 @@ hero:
   buttons:
     enabled: true
     list:
+      - text: "Scroll Down &nbsp;"
+        url: "https://gig-gossip.org/"
+        external: false
+        fa_icon: false
+        scroll_down: true
+        size: large
+        outline: false
+        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false
@@ -28,55 +36,54 @@ hero:
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "About"
-        url: "/about"
-        external: false
+      - text: "Visit Fairide"
+        url: "https://fairide.io/"
+        external: true
         fa_icon: false
         size: large
         outline: true
         style: "light"
 ---
+# Fairide - the Future of Ridesharing
+<img class="col-12" src="/assets/images/gen/projects/fairide.png"/>
 
-## We helped the city of brisbane rebuild their old water recycling plant and reclaimation works.
+HyperLabs introduces Fairide, a decentralized Bitcoin ridesharing application leveraging the Gig-Gossip protocol. This innovative platform transforms ridesharing by using Bitcoin and NOSTR for direct, peer-to-peer interactions, ensuring a seamless, secure, and empowering travel experience.
 
-Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
+### The First Decentralized Bitcoin Economy
 
-Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+Fairide merges the decentralized power of Bitcoin with the Lightning Network to offer fast, transparent, and efficient transactions. It encourages direct connections for a more personal and human-centric journey.
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/gig-gossip.webp" title="Gig-Gossip"  caption="An open source protocol" link="https://gig-gossip.org" target="_blank" %}
+### Earn Network Fees
 
-## History
+Participants can earn fees by running a node, which helps connect riders and drivers, enhancing the platform's efficiency and reach.
 
-John Gruber created the Markdown language in 2004 in collaboration with Aaron Swartz on the syntax, with the goal of enabling people "to write using an easy-to-read and easy-to-write plain text format". Its key design goal is readability. That the language be readable as-is.
+### User-Driven Pricing and Instant Booking
 
-> Designing affordable units within the existing water works area required an extensive site survey and ground testing.
+With Fairide, pricing is in the hands of users, promoting direct negotiations and a competitive environment responsive to market demands. The platform also supports instant booking, making travel planning more flexible.
 
-To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.
+### Commitment to Safety and Trust
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+Fairide's safety and trust are ensured by independent Security Centers through rigorous KYC and driver screenings, alongside managing dispute resolutions and payment settlements.
 
-## Example
+### Community at the Core
 
-There are several different versions of markdown
+The platform is built around community, with Community Ratings overseen by Security Centers to reflect true user experiences and driver performance.
 
-### CommonMark
+### Learn More 
 
-From 2012, a group of people including Jeff Atwood and John MacFarlane launched what Atwood characterized as a standardization effort. A community website now aims to "document various tools and resources available to document authors and developers, as well as implementors of the various markdown implementations".
+To learn more about Fairide and how you can contribute to this revolutionary project, 
+1. join our beta-tests  [Fairide website](https://fairide.io/),
+2. visit  [Gig-Gossip website](https://gig-gossip.org/),
+3. deepen your knowledge of [Bitcoin](https://bitcoin.org), 
+4. the [Lightning Network](https://lightning.network/), 
+5. and [Nostr](https://nostr.com/).
 
-### GitHub Flavored Markdown (GFM)
+### How to Get Involved
 
-In 2017, GitHub released a formal specification of their GitHub Flavored Markdown (GFM) that is based on CommonMark. It follows the CommonMark specification exactly except for tables, strikethrough, autolinks and task lists, which the GitHub spec has added as extensions. GitHub also changed the parser used on their sites accordingly, which required that some documents be changed. For instance, GFM now requires that the hash symbol that creates a heading be separated from the heading text by a space character.he user to create their own.
+Joining Fairide means contributing to a transformative movement in the digital age. 
 
-### Markdown Extra
+1. **Beta Testing and Community:** Engage by joining beta tests, participating in our Discord discussions, and following our updates on Twitter.
+2. **Developers:** If you're passionate about decentralization and have coding skills, your contributions are invaluable. We're looking for developers to help us innovate.
+3. **Investors:** Be part of our journey from the ground up by participating in our founding round, offering a unique opportunity to influence and benefit from our growth.
 
-Markdown Extra is a lightweight markup language based on Markdown implemented in PHP (originally), Python and Ruby. It adds features not available with plain Markdown syntax. Markdown Extra is supported in some content management systems such as, for example, Drupal.
-
-Markdown Extra adds the following features to Markdown:
-
-- markdown markup inside HTML blocks
-- elements with id/class attribute
-- "fenced code blocks" that span multiple lines of code
-- tables
-- definition lists
-- footnotes
-- abbreviations
+By getting involved, you're helping redefine the gig economy for a new era.
