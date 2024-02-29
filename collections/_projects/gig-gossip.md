@@ -1,7 +1,7 @@
 ---
 title: "Gig-Gossip"
 description: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
-date: 2018-12-20
+date: 2022-01-01
 weight: 1
 header_transparent: false
 thumbnail: "/assets/images/gen/projects/gig-gossip.webp"
@@ -17,7 +17,8 @@ hero:
   background_image: "/assets/images/gen/projects/gig-gossip.webp"
   background_image_blend_mode: overlay
   fullscreen_mobile: true
-  fullscreen_desktop: true
+  fullscreen_desktop: false
+  height: 400px
   buttons:
     enabled: true
     list:
@@ -36,47 +37,55 @@ hero:
         outline: true
         style: "light"
 ---
+# Gig-Gossip Protocol: Shaping the New Paradigm of the Gig Economy
 
-## We helped the city of brisbane rebuild their old water recycling plant and reclaimation works.
+<video class="col-12" loop="" muted="" autoplay="" playsinline="" src="https://gig-gossip.org/public/video/video1080.mp4"></video>
 
-Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
+## Introducing the Gig-Gossip Protocol by The HyperLabs
 
-Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+The HyperLabs is proud to unveil the Gig-Gossip protocol, a cutting-edge technology designed to revolutionize the gig economy. This protocol represents a significant leap towards a fully open, decentralized, equitable, and efficient marketplace. By harnessing the decentralizing power of Bitcoin, the unparalleled speed of the Lightning Network, and the robustness of the NOSTR protocol, Gig-Gossip is redefining peer-to-peer transactions and employment.
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/gig-gossip.webp" title="Gig-Gossip"  caption="An open source protocol" link="https://gig-gossip.org" target="_blank" %}
+**Gig-Gossip creates a trustless environment where service providers and customers can directly connect.**
 
-## History
+### The Power Trio: Bitcoin's Decentralization, Lightning Network's Speed, and NOSTR's Robustness
 
-John Gruber created the Markdown language in 2004 in collaboration with Aaron Swartz on the syntax, with the goal of enabling people "to write using an easy-to-read and easy-to-write plain text format". Its key design goal is readability. That the language be readable as-is.
+At its core, Gig-Gossip utilizes Bitcoin to enable secure, transparent transactions without central intermediaries. However, to overcome Bitcoin's limitation of 7 transactions per second, the Lightning Network steps in, offering near-instant payments with minimal fees. This scalability is vital for supporting a global user base, enabling economic opportunities worldwide with unmatched efficiency.
 
-> Designing affordable units within the existing water works area required an extensive site survey and ground testing.
+The NOSTR protocol further enhances Gig-Gossip, providing a general-purpose, distributed communication environment. This ensures the platform remains censorship-resistant and open, allowing users to communicate, collaborate, and transact freely. NOSTR's approach to social networking and digital identity within Gig-Gossip fosters a decentralized, user-centric economic model.
 
-To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.
+### Join the Movement
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+Gig-Gossip is more than just a protocol—it's a movement towards a fairer, more transparent, and inclusive gig economy. By participating, you're joining a community committed to empowerment, innovation, and the transformative power of decentralized technology. Whether you're a service provider aiming to broaden your reach or a customer seeking reliable services, Gig-Gossip provides the necessary tools and support for success.
 
-## Example
+### Looking Ahead
 
-There are several different versions of markdown
+As Gig-Gossip continues to evolve, we invite you to be a part of this thrilling journey. Discover the myriad possibilities Gig-Gossip offers, from achieving financial independence to contributing to a more equitable and decentralized world. The future of work isn't just a concept with Gig-Gossip—it's a reality we're building together, starting now.
 
-### CommonMark
+### Learn More 
 
-From 2012, a group of people including Jeff Atwood and John MacFarlane launched what Atwood characterized as a standardization effort. A community website now aims to "document various tools and resources available to document authors and developers, as well as implementors of the various markdown implementations".
+To learn more about Gig-Gossip and how you can contribute to this revolutionary project, 
+1. visit  [Gig-Gossip website](https://gig-gossip.org/),
+2. explore [GitHub repository and whitepaper](https://github.com/DontTrustVerifyOrg/gig-gossip), 
+3. deepen your knowledge of [Bitcoin](https://bitcoin.org), 
+4. the [Lightning Network](https://lightning.network/), 
+5. and [Nostr](https://nostr.com/).
 
-### GitHub Flavored Markdown (GFM)
+### How to Get Involved
 
-In 2017, GitHub released a formal specification of their GitHub Flavored Markdown (GFM) that is based on CommonMark. It follows the CommonMark specification exactly except for tables, strikethrough, autolinks and task lists, which the GitHub spec has added as extensions. GitHub also changed the parser used on their sites accordingly, which required that some documents be changed. For instance, GFM now requires that the hash symbol that creates a heading be separated from the heading text by a space character.he user to create their own.
+By getting involved, you're not just contributing to a project—you're becoming part of a movement to redefine work in the digital age.
 
-### Markdown Extra
+**1. Developers:** We welcome contributions from developers passionate about decentralization and the gig economy. If you're skilled in coding and eager to contribute, join us on GitHub to collaborate and innovate.
 
-Markdown Extra is a lightweight markup language based on Markdown implemented in PHP (originally), Python and Ruby. It adds features not available with plain Markdown syntax. Markdown Extra is supported in some content management systems such as, for example, Drupal.
+**2. Bitcoin Evangelists:** If you're a Bitcoin enthusiast, help spread the word about Gig-Gossip. Your voice can amplify our impact—talk about us, tweet, and share our vision with the world.
 
-Markdown Extra adds the following features to Markdown:
+**3. Social Media Engagement:** Connect with us on Twitter and Discord. Join our community for real-time updates, discussions, and insights into Gig-Gossip’s development and milestones.
 
-- markdown markup inside HTML blocks
-- elements with id/class attribute
-- "fenced code blocks" that span multiple lines of code
-- tables
-- definition lists
-- footnotes
-- abbreviations
+**4. Donations:** Support Gig-Gossip's mission to revolutionize the gig economy. Your donations help fuel our project, enabling us to continue building and expanding our platform.
+
+**5. Content Creators & Influencers:** If you create content or have influence in the digital or financial spaces, use your platform to share information about Gig-Gossip. Creating tutorials, reviews, or informative videos can help educate others about the benefits of our platform.
+
+**6. Volunteer for Community Support:** Offer your skills in customer service, community management, or education by volunteering to support new users and service providers joining Gig-Gossip. Help create a welcoming and supportive environment.
+
+**7. Provide Feedback and Ideas:** Your insights are valuable. Participate in surveys, beta testing of new features, or forums to provide feedback. Your ideas can help shape the future of Gig-Gossip.
+
+**8. Host Meetups or Webinars:** Organize or participate in virtual or physical meetups and webinars about Gig-Gossip and the broader gig economy. Sharing knowledge and experiences can strengthen the community and foster networking opportunities.

@@ -1,15 +1,15 @@
 ---
 layout: home
 permalink: "/"
-title: "The Hyperlabs"
+title: "The Hyperlabs Bitcoin Developpers"
 description: "Those who build, sculpt the currency of the future. We are the builders."
 header_transparent: true
 meta_title: The Hyperlabs
 
 hero:
   enabled: true
-  heading: "The Hyperlabs"
-  sub_heading: "Those who build, sculpt the currency of the future. <br/> Join us."
+  heading: "The Hyperlabs Bitcoin Developpers"
+  sub_heading: "Those who build on ₿, sculpt the currency of the future. <br/> Join us."
   text_color: "#FFFFFF"
   background_color: "#222831"
 #  background_gradient: true

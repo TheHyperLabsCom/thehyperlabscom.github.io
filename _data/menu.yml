@@ -2,6 +2,18 @@ main:
   - name: Home
     url: /
     weight: 1
+  - name: Projects
+    url: /projects/
+    weight: 2
+    child:
+      - name: "Book Design"
+        url: /projects/book-design/
+      - name: "Special Edition"
+        url: /projects/special-edition/
+      - name: "Master System"
+        url: /projects/master-system/
+      - name: "Clothing Range"
+        url: /projects/clothing-range/
   - name: Services
     url: /services/
     weight: 1
@@ -18,18 +30,6 @@ main:
         url: /services/seo/
       - name: "Software Engineering"
         url: /services/software-engineering/
-  - name: Projects
-    url: /projects/
-    weight: 2
-    child:
-      - name: "Book Design"
-        url: /projects/book-design/
-      - name: "Special Edition"
-        url: /projects/special-edition/
-      - name: "Master System"
-        url: /projects/master-system/
-      - name: "Clothing Range"
-        url: /projects/clothing-range/
   - name: Blog
     url: /blog/
     weight: 4

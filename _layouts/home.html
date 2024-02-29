@@ -31,6 +31,58 @@ body_classes: page-home
   </div>
 {% endif %}
 
+
+{% assign cards = site.projects | sort: 'date' | reverse %}
+{% assign limit = page.projects.limit | default: 2 %}
+{% assign sort_by = page.projects.sort | default: 'date' %}
+{% assign columns =  page.projects.columns | default: 2 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
+
+{% if page.projects.enabled %}
+  <div class="section section-base-bg">
+    <div class="container">
+      <div class="row">
+
+        {% include framework/grid-header.html
+          heading=page.projects.heading
+          sub_heading=page.projects.sub_heading
+          align="center"
+        %}
+        
+        {% for card in cards limit: limit %}
+
+          {% assign url = card.url %}
+          {% if page.projects.prevent_click %}
+            {% assign url = null %}
+          {% endif %}
+
+          <div class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
+            {% include theme/cards/card-projects.html 
+              title=card.title 
+              description=card.description
+              thumbnail=card.thumbnail
+              url=url 
+              weight=card.weight
+            %}
+          </div>
+        {% endfor %}
+
+        {% include framework/grid-footer.html 
+          view_more_button_text=page.projects.view_more_button_text
+          view_more_button_link=page.projects.view_more_button_link
+          align="center"
+        %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
+
 {% assign cards = site.services | sort: 'date' | reverse %}
 {% assign limit = page.services.limit | default: 3 %}
 {% assign sort_by = page.services.sort | default: 'date' %}
@@ -119,56 +171,6 @@ body_classes: page-home
   </div>
 </div>
 {% endif %}
-{% endif %}
-
-
-{% assign cards = site.projects | sort: 'date' | reverse %}
-{% assign limit = page.projects.limit | default: 2 %}
-{% assign sort_by = page.projects.sort | default: 'date' %}
-{% assign columns =  page.projects.columns | default: 2 %}
-{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
-{% if sort_by == 'weight' %}
-  {% assign cards = cards | sort: 'weight' %}
-{% endif %}
-
-{% if page.projects.enabled %}
-  <div class="section section-base-bg">
-    <div class="container">
-      <div class="row">
-
-        {% include framework/grid-header.html
-          heading=page.projects.heading
-          sub_heading=page.projects.sub_heading
-          align="center"
-        %}
-        
-        {% for card in cards limit: limit %}
-
-          {% assign url = card.url %}
-          {% if page.projects.prevent_click %}
-            {% assign url = null %}
-          {% endif %}
-
-          <div class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
-            {% include theme/cards/card-projects.html 
-              title=card.title 
-              description=card.description
-              thumbnail=card.thumbnail
-              url=url 
-              weight=card.weight
-            %}
-          </div>
-        {% endfor %}
-
-        {% include framework/grid-footer.html 
-          view_more_button_text=page.projects.view_more_button_text
-          view_more_button_link=page.projects.view_more_button_link
-          align="center"
-        %}
-
-    </div>
-  </div>
-</div>
 {% endif %}
 
 
