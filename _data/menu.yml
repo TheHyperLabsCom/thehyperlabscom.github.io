@@ -6,8 +6,8 @@ main:
     url: /projects/
     weight: 2
     child:
-      - name: "Book Design"
-        url: /projects/book-design/
+      - name: "Gig-Gossip Protocol"
+        url: /projects/gig-gossip//
       - name: "Special Edition"
         url: /projects/special-edition/
       - name: "Master System"

@@ -28,7 +28,7 @@ hero:
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "About"
+      - text: "About us"
         url: "/about"
         external: false
         fa_icon: false

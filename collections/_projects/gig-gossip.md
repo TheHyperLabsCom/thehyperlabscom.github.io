@@ -29,9 +29,9 @@ hero:
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "About"
-        url: "/about"
-        external: false
+      - text: "About Gig-Gossip"
+        url: "https://gig-gossip.org/"
+        external: true
         fa_icon: false
         size: large
         outline: true
