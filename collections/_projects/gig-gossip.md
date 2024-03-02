@@ -1,5 +1,5 @@
 ---
-title: "Gig-Gossip"
+title: "Gig-Gossip Open Source Protocol"
 description: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
 date: 2022-01-01
 weight: 5
@@ -10,7 +10,7 @@ client: "Open Source"
 
 hero:
   enabled: true
-  heading: "Gig-Gossip protocol"
+  heading: "Gig-Gossip Open Source Protocol"
   sub_heading: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
   text_color: "#FFFFFF"
   background_color: "#222831"
