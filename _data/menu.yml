@@ -33,12 +33,12 @@ main:
 #  - name: Blog
 #    url: /blog/
 #    weight: 4
-  - name: Careers
-    url: /careers/
-    weight: 5
-  - name: About
-    url: /about/
-    weight: 5
+#  - name: Careers
+#    url: /careers/
+#    weight: 5
+#  - name: About
+#    url: /about/
+#    weight: 5
 footer_primary:
   - name: Home
     url: /
