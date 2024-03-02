@@ -45,7 +45,7 @@ hero:
         style: "light"
 
 services:
-  enabled: true
+  enabled: false
   heading: "Our Services"
   sub_heading: ""
   limit: 6
@@ -83,7 +83,7 @@ intro:
         style: "primary"
 
 partners:
-  enabled: true
+  enabled: false
   limit: 5
   sort: "weight" # 'date'
 
@@ -118,7 +118,7 @@ outro:
         size: "large"
 
 posts:
-  enabled: true
+  enabled: false
   heading: "Latest Posts"
   sub_heading: ""
   limit: 3

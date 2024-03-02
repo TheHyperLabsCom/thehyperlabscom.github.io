@@ -14,25 +14,25 @@ main:
         url: /projects/btmpr/
       - name: "Gig-Gossip Protocol"
         url: /projects/gig-gossip//
-  - name: Services
-    url: /services/
-    weight: 1
-    child:
-      - name: "Web Development"
-        url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Branding"
-        url: /services/branding/
-      - name: "Web Design"
-        url: /services/web-design/
-      - name: "SEO"
-        url: /services/seo/
-      - name: "Software Engineering"
-        url: /services/software-engineering/
-  - name: Blog
-    url: /blog/
-    weight: 4
+#  - name: Services
+#    url: /services/
+#    weight: 1
+#    child:
+#      - name: "Web Development"
+#        url: /services/web-development/
+#      - name: "UX"
+#        url: /services/user-experience/
+#      - name: "Branding"
+#        url: /services/branding/
+#      - name: "Web Design"
+#        url: /services/web-design/
+#      - name: "SEO"
+#        url: /services/seo/
+#      - name: "Software Engineering"
+#        url: /services/software-engineering/
+#  - name: Blog
+#    url: /blog/
+#    weight: 4
   - name: Careers
     url: /careers/
     weight: 5
