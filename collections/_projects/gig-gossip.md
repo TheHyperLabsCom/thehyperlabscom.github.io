@@ -2,7 +2,7 @@
 title: "Gig-Gossip"
 description: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
 date: 2022-01-01
-weight: 1
+weight: 5
 header_transparent: false
 thumbnail: "/assets/images/gen/projects/gig-gossip.webp"
 image: "/assets/images/gen/projects/gig-gossip.webp"

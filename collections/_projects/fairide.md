@@ -2,7 +2,7 @@
 title: "Fairide"
 description: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You"
 date: 2024-01-01
-weight: 2
+weight: 1
 header_transparent: false
 thumbnail: "/assets/images/gen/projects/fairide.png"
 image: "/assets/images/gen/projects/fairide.png"

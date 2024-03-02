@@ -1,26 +1,34 @@
 ---
-title: "MySuperApp"
-description: "Bitcoin Self Managed Retirement Fund"
+title: "My-Super.App"
+description: "Bitcoin Self Managed Superannuaction Fund"
 date: 2018-12-20
-weight: 1
+weight: 2
 header_transparent: false
-#thumbnail: "/assets/images/gen/projects/fairide.png"
-#image: "/assets/images/gen/projects/fairide.png"
-client: "Fairide Pty Ldt"
+thumbnail: "/assets/images/gen/projects/mysuperapp.webp"
+image: "/assets/images/gen/projects/mysuperapp.webp"
+client: "MySuperApp Pty Ldt"
 
 hero:
   enabled: true
-  heading: "Fairide"
-  sub_heading: "Decentralized Ridesharing, Empowered by Bitcoin and Driven by You."
+  heading: "My-Super.app"
+  sub_heading: "Bitcoin Self Managed Superannuaction Fund"
   text_color: "#FFFFFF"
   background_color: "#222831"
-  background_image: "/assets/images/gen/projects/fairide.png"
+  background_image: "/assets/images/gen/projects/mysuperapp.webp"
   background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: true
   buttons:
     enabled: true
     list:
+      - text: "Scroll Down &nbsp;"
+        url: "https://gig-gossip.org/"
+        external: false
+        fa_icon: false
+        scroll_down: true
+        size: large
+        outline: false
+        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false
@@ -28,55 +36,31 @@ hero:
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "About"
-        url: "/about"
-        external: false
+      - text: "Visit My-Super.app"
+        url: "https://my-super.app/"
+        external: true
         fa_icon: false
         size: large
         outline: true
         style: "light"
 ---
+# Welcome to My-Super.app - Your Gateway to Bitcoin Retirement Investing
+<img class="col-12" src="/assets/images/gen/projects/mysuperapp.webp"/>
 
-## We helped the city of brisbane rebuild their old water recycling plant and reclaimation works.
+### Empower Your Future with Bitcoin
 
-Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
+My-Super.app enables Self Managed Super Funds (SMSFs) to seamlessly integrate Bitcoin into your retirement plan. With My-Super.app, you gain the power to diversify your retirement savings with one of the most dynamic assets of the digital age.
 
-Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+- **Simplified Bitcoin Investing:** Navigate the world of cryptocurrency easily with our user-friendly platform designed for SMSF trustees.
+- **Secure and Compliant:** Adhere to regulations with an SMSF solution that prioritizes security and compliance in your cryptocurrency investments.
+- **Future-Proof Your Retirement:** Leverage the potential of Bitcoin's growth for a more prosperous retirement.
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/gig-gossip.webp" title="Gig-Gossip"  caption="An open source protocol" link="https://gig-gossip.org" target="_blank" %}
+**Features at a Glance**
 
-## History
+- **Self-Service Platform:** Manage your SMSF investments with full control and transparency.
+- **Expert Guidance:** Access comprehensive resources and support to make informed investment decisions.
+- **Real-Time Portfolio Management:** Monitor your investments and market trends with our intuitive dashboard.
 
-John Gruber created the Markdown language in 2004 in collaboration with Aaron Swartz on the syntax, with the goal of enabling people "to write using an easy-to-read and easy-to-write plain text format". Its key design goal is readability. That the language be readable as-is.
+**Join the Revolution**
 
-> Designing affordable units within the existing water works area required an extensive site survey and ground testing.
-
-To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.
-
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
-
-## Example
-
-There are several different versions of markdown
-
-### CommonMark
-
-From 2012, a group of people including Jeff Atwood and John MacFarlane launched what Atwood characterized as a standardization effort. A community website now aims to "document various tools and resources available to document authors and developers, as well as implementors of the various markdown implementations".
-
-### GitHub Flavored Markdown (GFM)
-
-In 2017, GitHub released a formal specification of their GitHub Flavored Markdown (GFM) that is based on CommonMark. It follows the CommonMark specification exactly except for tables, strikethrough, autolinks and task lists, which the GitHub spec has added as extensions. GitHub also changed the parser used on their sites accordingly, which required that some documents be changed. For instance, GFM now requires that the hash symbol that creates a heading be separated from the heading text by a space character.he user to create their own.
-
-### Markdown Extra
-
-Markdown Extra is a lightweight markup language based on Markdown implemented in PHP (originally), Python and Ruby. It adds features not available with plain Markdown syntax. Markdown Extra is supported in some content management systems such as, for example, Drupal.
-
-Markdown Extra adds the following features to Markdown:
-
-- markdown markup inside HTML blocks
-- elements with id/class attribute
-- "fenced code blocks" that span multiple lines of code
-- tables
-- definition lists
-- footnotes
-- abbreviations
+MySuper.app is more than an investment platform; it's your partner in securing a future where your retirement savings work harder for you. Ready to take the first step towards a Bitcoin-powered retirement? Join us at MySuper.app.

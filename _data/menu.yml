@@ -6,18 +6,14 @@ main:
     url: /projects/
     weight: 2
     child:
-      - name: "Gig-Gossip Protocol"
-        url: /projects/gig-gossip//
       - name: "Fairide"
         url: /projects/fairide/
-      - name: "MySuperApp"
+      - name: "My-Super.App Self Managed Superfund"
         url: /projects/mysuperapp/
-      - name: "Swap FIAT<->BTC"
-        url: /projects/swap/
-      - name: "Wallet"
-        url: /projects/wallet/
-      - name: "Bitcoin Timestamp"
-        url: /projects/bitcointimestamp/
+      - name: "Bitcoin Imperial"
+        url: /projects/btmpr/
+      - name: "Gig-Gossip Protocol"
+        url: /projects/gig-gossip//
   - name: Services
     url: /services/
     weight: 1
@@ -37,6 +33,9 @@ main:
   - name: Blog
     url: /blog/
     weight: 4
+  - name: Careers
+    url: /careers/
+    weight: 5
   - name: About
     url: /about/
     weight: 5

@@ -92,7 +92,7 @@ projects:
   heading: "Our Projects"
   sub_heading: ""
   limit: 7
-  columns: 3
+  columns: 2
   sort: "weight" # 'date'
   view_more_button_text: "View All Projects"
   view_more_button_link: "/projects"
