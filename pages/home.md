@@ -1,14 +1,14 @@
 ---
 layout: home
 permalink: "/"
-title: "The Hyperlabs Bitcoin Developpers"
+title: "World First Bitcoin Developpers"
 description: "Those who build on Bitcoin, sculpt the currency of the future. We are the builders."
 header_transparent: true
 meta_title: The Hyperlabs
 
 hero:
   enabled: true
-  heading: "The Hyperlabs Bitcoin Developpers"
+  heading: "World First Bitcoin Developpers"
   sub_heading: "Those who build on Bitcoin, sculpt the currency of the future. <br/> Join us."
   text_color: "#FFFFFF"
   background_color: "#222831"
@@ -45,7 +45,7 @@ hero:
         style: "light"
 
 services:
-  enabled: false
+  enabled: true
   heading: "Our Services"
   sub_heading: ""
   limit: 6
@@ -83,8 +83,8 @@ intro:
         style: "primary"
 
 partners:
-  enabled: false
-  limit: 5
+  enabled: true
+  limit: 2
   sort: "weight" # 'date'
 
 projects:
@@ -99,23 +99,21 @@ projects:
   prevent_click: false
 
 outro:
-  enabled: false
-  align: center
+  enabled: true
+  align: left
   image: false
-  heading: Get Started Today
-  sub_heading: "Save time and money using this premium Jekyll theme."
-  features:
-    enabled: false
-    list:
-      - text: "Free Quote"
-        fa_icon: "fas fa-envelope-open-text"
+  heading: "Ready to get started?"
+  sub_heading: "Contact us today for a free quote!"
   buttons:
     enabled: true
     list:
-      - text: "Contact Us"
+      - text: "Get A Quote"
         url: "/contact"
         external: false
-        size: "large"
+        fa_icon: false
+        size: "normal"
+        outline: false
+        style: "primary"
 
 posts:
   enabled: false

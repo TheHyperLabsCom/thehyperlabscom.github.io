@@ -13,32 +13,32 @@ main:
       - name: "Bitcoin Imperial"
         url: /projects/btmpr/
       - name: "Gig-Gossip Protocol"
-        url: /projects/gig-gossip//
-#  - name: Services
-#    url: /services/
-#    weight: 1
-#    child:
-#      - name: "Web Development"
-#        url: /services/web-development/
-#      - name: "UX"
-#        url: /services/user-experience/
-#      - name: "Branding"
-#        url: /services/branding/
-#      - name: "Web Design"
-#        url: /services/web-design/
-#      - name: "SEO"
-#        url: /services/seo/
-#      - name: "Software Engineering"
-#        url: /services/software-engineering/
+        url: /projects/gig-gossip/
+  - name: Services
+    url: /services/
+    weight: 1
+    child:
+      - name: "Decentralised & Distributed Apps"
+        url: /services/decdisapp/
+      - name: "Bitcoin & Lightning Network"
+        url: /services/btclnd/
+      - name: "Bitcoin Consulting"
+        url: /services/consulting/
 #  - name: Blog
 #    url: /blog/
 #    weight: 4
 #  - name: Careers
 #    url: /careers/
 #    weight: 5
-#  - name: About
-#    url: /about/
-#    weight: 5
+  - name: About
+    url: /about/
+    weight: 5
+  - name: "Team"
+    url: /team/
+    weight: 6
+  - name: "Contact"
+    url: /contact/
+    weight: 7
 footer_primary:
   - name: Home
     url: /
@@ -49,19 +49,16 @@ footer_primary:
   - name: Projects
     url: /projects/
     weight: 3
-  - name: Team
-    url: /team/
-    weight: 4
 footer_secondary:
-  - name: Blog
-    url: /blog/
-    weight: 1
   - name: About
     url: /about/
     weight: 2
+  - name: Team
+    url: /team/
+    weight: 3
   - name: Contact
     url: /contact/
-    weight: 3
+    weight: 4
 footer_tertiary:
   - name: Privacy Policy
     url: /privacy-policy/
@@ -69,9 +66,6 @@ footer_tertiary:
   - name: Terms and Conditions
     url: /terms-and-conditions/
     weight: 2
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 3
 bottom:
   - name: Privacy Policy
     url: /privacy-policy/

@@ -1,12 +1,12 @@
 [
   {
     "title": "Don't Trust Verify",
-    "image": "assets/images/partners/jekyll-mark.png",
-    "url": "https://www.zerostatic.io"
+    "image": "https://donttrustverify.org/images/newlogo.png",
+    "url": "https://donttrustverify.org/"
   },
   {
     "title": "Fairide",
-    "image": "assets/images/partners/netlify.png",
-    "url": "https://www.zerostatic.io"
+    "image": "https://fairide.io/assets/appicon.png",
+    "url": "https://fairide.io/"
   }
 ]

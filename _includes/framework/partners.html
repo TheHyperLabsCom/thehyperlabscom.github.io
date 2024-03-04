@@ -5,7 +5,10 @@
   <div class="row justify-content-center align-items-center">
     {% for partner in partners limit: partners_limit %}
     <div class="col-4 col-lg-2 text-center mb-1 mt-1">
-      <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
+      <a href="{{ partner.url | relative_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
+        partner.title
+      </a>
     </div>
     {% endfor %}
   </div>

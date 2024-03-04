@@ -154,7 +154,7 @@ body_classes: page-home
 {% assign partners_limit = page.partners.limit | default: 4 %}
 {% assign partners_sort = page.partners.sort | default: 'weight' %}
 {% if partners.size > 0 %}
-<div class="section partners section-base-bg-3">
+<div class="section partners section-base-bg-1">
   <div class="container">
     <div class="col-12">
       <div class="grid-header grid-header-align-center">
@@ -164,7 +164,10 @@ body_classes: page-home
     <div class="row justify-content-center align-items-center">
       {% for partner in partners limit: partners_limit %}
       <div class="col-4 col-lg-2 text-center mb-1 mt-1">
-        <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
+        <a href="{{ partner.url | relative_url }}" target="_blank" rel="noopener noreferrer">
+          <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
+          <br/>{{partner.title}} 
+        </a>
       </div>
       {% endfor %}
     </div>
@@ -176,7 +179,7 @@ body_classes: page-home
 
 
 {% if page.outro.enabled %}
-<div class="section">
+<div class="section section-base-bg-2">
   <div class="container">
     {% include framework/info.html
     heading=page.outro.heading
