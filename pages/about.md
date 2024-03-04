@@ -4,13 +4,13 @@ title: "About Us"
 date: 2018-11-28T15:15:34+10:00
 header_transparent: true
 permalink: "/about/"
-description: "Business plan hackathon handshake responsive web design."
+description: "Where innovation meets the future of finance."
 image: "/assets/images/gen/content/content-5.webp"
 
 hero:
   enabled: true
   heading: "About Us"
-  sub_heading: "Business plan hackathon handshake responsive web design."
+  sub_heading: "Where innovation meets the future of finance."
   text_color: "#FFFFFF"
   background_color: "#222831"
 #  background_gradient: true
@@ -38,40 +38,14 @@ hero:
         style: "light" # "light", "dark", "primary"
 ---
 
-# Creating Modern Websites
+# About Us
 
-Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+Welcome to The Hyperlabs, where innovation meets the future of finance. At the heart of our operations is a passionate team of Bitcoin enthusiasts, seasoned software developers, blockchain engineers, and crypto asset specialists dedicated to revolutionizing the way the world interacts with digital currencies.
 
-Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. Web design partially overlaps web engineering in the broader scope of web development.
+Founded on the principles of transparency, security, and efficiency, we are committed to delivering cutting-edge solutions that empower individuals, businesses, and communities to harness the full potential of Bitcoin and blockchain technology. Our journey began with a simple belief: that Bitcoin holds the key to unlocking a new era of financial freedom and inclusion.
 
-## What is Web Design?
+Our team comprises industry veterans and visionary thinkers, each bringing a wealth of experience and a unique set of skills to the table. From developing state-of-the-art software that ensures seamless transactions in the Bitcoin ecosystem to crafting innovative platforms that simplify the complexities of blockchain technology, we are on a mission to make Bitcoin accessible and user-friendly for everyone.
 
-User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use.
+At The Hyperlabs, we are more than just a company; we are a community of like-minded individuals united by a shared passion for pushing the boundaries of what's possible. We believe in the transformative power of Bitcoin to create a more open, transparent, and equitable financial system.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="Steve Francia" caption="Designing in Figma" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
-
-## Front-end Development
-
-The What addresses the things people can do with a product—its functionality. Finally, the How relates to the design of functionality in an accessible and aesthetically pleasant way. UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. In software designs, you will need to ensure the product’s “substance” comes through an existing device and offers a seamless, fluid experience.
-
-> As a UX designer, you should consider the Why, What and How of product use.
-
-Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.
-
-## Design Systems
-
-A Design System is a set of interconnected patterns and shared practices coherently organized to aid in digital product design and development of products such as apps or websites.
-
-{% include framework/shortcodes/youtube.html id='2M6dJ2Uynhg' %}
-
-## Process
-
-There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
-
-- User experience research
-- Visual design and illustration
-- Programming and coding
-
-![Design In Figma](/assets/images/gen/content/content-2.webp)
-
-Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another.
+Join us on this exciting journey as we continue to explore the limitless possibilities of Bitcoin. Together, we are building the future of finance, today.

@@ -15,8 +15,9 @@ hero:
   sub_heading: "There is no cloud. It's just someone else's computer."
   text_color: "#FFFFFF"
   background_color: "#222831"
-  background_image: "/assets/images/gen/home/bg2.webp"
-  background_image_blend_mode: overlay
+#  background_gradient: true
+  background_image: "/assets/images/gen/home/HL_back.png"
+  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
   buttons:
