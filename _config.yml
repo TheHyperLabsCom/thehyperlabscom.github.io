@@ -155,7 +155,7 @@ darkmode:
   show_dark_mode_toggle_in_mobile_menu: false
 
 cookie_banner:
-  enabled: false
+  enabled: true
   show_manage_cookies_at_bottom: false
 
 analytics:
@@ -177,9 +177,9 @@ newsletter:
     form_title: "Let's keep in touch"
 
 contact_form: 
-  use_netlify_form: true
-  use_formspree_form: false
-  formspree_endpoint: https://formspree.io/f/mgejgykw
+  use_netlify_form: false
+  use_formspree_form: true
+  formspree_endpoint: https://formspree.io/f/xwkgqepe
   netlify_form_name: "contact"
 
 menu: 
@@ -190,7 +190,7 @@ footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "The Hyperlabs - World First Bitcoin Developpers"
   footer_description: "Those who build on Bitcoin, sculpt the currency of the future.<br/>Join us."
-  enable_social_media_icons: true
+  enable_social_media_icons: false
   enable_contact_details: true
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
