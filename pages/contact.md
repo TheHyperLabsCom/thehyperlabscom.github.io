@@ -10,7 +10,7 @@ hero:
   heading: "Contact Us Us"
   sub_heading: "Business plan hackathon handshake responsive web design."
   text_color: "#FFFFFF"
-  background_color: "#EEEEEE"
+  background_color: "#222831"
 #  background_gradient: true
   background_image: "/assets/images/gen/home/HL_back.png"
   background_image_blend_mode: multiply # "overlay", "multiply", "screen"

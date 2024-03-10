@@ -188,7 +188,7 @@ menu:
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "The Hyperlabs - World First Bitcoin Developpers"
+  footer_title: "The Hyperlabs - World's First Bitcoin Developpers"
   footer_description: "Those who build on Bitcoin, sculpt the currency of the future.<br/>Join us."
   enable_social_media_icons: false
   enable_contact_details: true

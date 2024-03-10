@@ -1,14 +1,14 @@
 ---
 layout: home
 permalink: "/"
-title: "World First Bitcoin Developpers"
+title: "World's First Bitcoin Developpers"
 description: "Those who build on Bitcoin, sculpt the currency of the future. We are the builders."
 header_transparent: true
 meta_title: The Hyperlabs
 
 hero:
   enabled: true
-  heading: "World First Bitcoin Developpers"
+  heading: "World's First Bitcoin Developpers"
   sub_heading: "Those who build on Bitcoin, sculpt the currency of the future. <br/> Join us."
   text_color: "#FFFFFF"
   background_color: "#222831"
