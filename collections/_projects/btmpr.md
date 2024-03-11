@@ -1,6 +1,6 @@
 ---
-title: "Bitcion Imperial Finance"
-description: "Bitcoin Exchange & Wallet"
+title: "Bitcoin Imperial Wallet"
+description: "A Bitcoin Lightning Wallet That Feels Just Right"
 date: 2018-12-20
 weight: 3
 header_transparent: false
@@ -10,8 +10,8 @@ client: "Fairide Pty Ldt"
 
 hero:
   enabled: true
-  heading: "Bitcion Imperial Finances"
-  sub_heading: "Bitcoin Exchange & Wallet"
+  heading: "Bitcoin Imperial Wallet"
+  sub_heading: "A Bitcoin Lightning Wallet That Feels Just Right"
   text_color: "#FFFFFF"
   background_color: "#222831"
   background_image: "/assets/images/gen/projects/btmpr.webp"
@@ -44,9 +44,9 @@ hero:
         style: "light"
 ---
 
-# Welcome to Bitcoin Imperial Finance
+# Welcome to Bitcoin Imperial Wallet
 <img class="col-12" src="/assets/images/gen/projects/btmpr.webp"/>
-Bitcoin Imperial Finance is revolutionizing the way you interact with Bitcoin. Our platform is designed to make Bitcoin accessible to everyone, offering an exchange that capitalizes on the best price arbitrage and integrates multiple cryptocurrency exchanges for optimum results. 
+Bitcoin Imperial Wallet is revolutionizing the way you interact with Bitcoin. Our wallet is designed to make Bitcoin accessible to everyone, offering an exchange that capitalizes on the best price arbitrage and integrates lightning network. 
 
 ### Features:
 - **Best Price Arbitrage Exchange:** Access competitive Bitcoin prices across various platforms.
