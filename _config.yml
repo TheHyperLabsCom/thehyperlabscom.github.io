@@ -103,11 +103,11 @@ colors:
 
   # dark-mode colors
   primary_bg_dark: "#EEEEEE"
-  primary_bg_2_dark: "#320D6D"
+  primary_bg_2_dark: "#2D4059"
   primary_bg_3_dark: "#F17300"
   primary_text_dark: "#222831"
   base_bg_dark: "#222831"
-  base_bg_2_dark: "#320D6D"
+  base_bg_2_dark: "#2D4059"
   base_bg_3_dark: "#F17300"
   text_dark: "#EEEEEE"
   text_2_dark: "#EEEEEE"
@@ -132,8 +132,8 @@ logo:
   logo_image_invert_mobile: assets/images/logo/logo-mobile.png
   logo_image_desktop_height: "auto"
   logo_image_desktop_width: "300px"
-  logo_image_mobile_height: "60px"
-  logo_image_mobile_width: "80px"
+  logo_image_mobile_height: "35px"
+  logo_image_mobile_width: "auto"
   show_logo_image_on_mobile: true
   show_logo_image_on_desktop: true
   show_logo_text_on_mobile: false
