@@ -29,6 +29,13 @@
     background-repeat: no-repeat;
     background-position: top center;
   }
+  .hero-side-svg {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+  
   .container {
     z-index: 1;
   }
