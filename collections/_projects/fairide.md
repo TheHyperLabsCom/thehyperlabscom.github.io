@@ -21,14 +21,6 @@ hero:
   buttons:
     enabled: true
     list:
-      - text: "Scroll Down &nbsp;"
-        url: "https://gig-gossip.org/"
-        external: false
-        fa_icon: false
-        scroll_down: true
-        size: large
-        outline: false
-        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false

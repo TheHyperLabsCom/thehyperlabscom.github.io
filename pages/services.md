@@ -3,7 +3,7 @@ layout: list
 title: Services
 description: "A selection of our services."
 permalink: "/services/"
-header_transparent: false
+header_transparent: true
 
 hero:
   enabled: true
@@ -11,23 +11,15 @@ hero:
   sub_heading: "A selection of our services."
   text_color: "#FFFFFF"
   background_color: "#222831"
-#  background_gradient: true
-  background_image: "/assets/images/gen/home/HL_back.png"
-  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
+  background_gradient: true
+  #background_image: "/assets/images/gen/home/HL_back.png"
+  #background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
 #  height: "500px"
   buttons:
     enabled: true
     list:
-      - text: "Scroll Down &nbsp;"
-        url: "/projects/gig-gossip#start"
-        external: false
-        fa_icon: false
-        scroll_down: true
-        size: large
-        outline: false
-        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false
@@ -66,7 +58,7 @@ intro:
 
 outro:
   enabled: true
-  align: left
+  align: center
   image: false
   heading: "Ready to get started?"
   sub_heading: "Contact us today for a free quote!"
@@ -78,4 +70,5 @@ outro:
         external: false
         fa_icon: false
         size: normal
+        style: light
 ---

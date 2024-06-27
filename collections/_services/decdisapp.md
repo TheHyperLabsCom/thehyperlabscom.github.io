@@ -3,7 +3,7 @@ title: "Decentralised & Distributed Apps"
 description: "There is no cloud. It's just someone else's computer."
 date: 2024-01-01
 weight: 1
-header_transparent: false
+header_transparent: true
 fa_icon: fa-sharp fa-solid fa-globe
 #icon: "assets/images/icons/icons8-color-palette-100.png"
 #thumbnail: "/assets/images/gen/services/service-3-thumbnail.webp"
@@ -14,22 +14,15 @@ hero:
   heading: "Decentralised & Distributed Apps"
   sub_heading: "There is no cloud. It's just someone else's computer."
   text_color: "#FFFFFF"
-  background_color: "#222831"
-#  background_gradient: true
-  background_image: "/assets/images/gen/home/HL_back.png"
+  #background_color: "#222831"
+  background_gradient: true
+  #background_image: "/assets/images/gen/home/HL_back.png"
   background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
   buttons:
     enabled: true
     list:
-      - text: "Scroll Down &nbsp;"
-        external: false
-        fa_icon: false
-        scroll_down: true
-        size: large
-        outline: false
-        style: "none"
       - text: "Contact Us"
         url: "/contact"
         external: false

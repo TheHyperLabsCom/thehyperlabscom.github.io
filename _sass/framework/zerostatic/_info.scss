@@ -1,11 +1,16 @@
 .info {
+  .row{
+    height: 360px;
+    align-items: end;
+  }
+  
   .info-content {
     font-size: 20px;
     h1,
     h2 {
       margin-bottom: 20px;
       color: inherit;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 34px;
       line-height: 1.2;
     }

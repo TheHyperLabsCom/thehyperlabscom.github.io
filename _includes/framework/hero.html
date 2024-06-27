@@ -14164,26 +14164,17 @@
          curvePath.style.strokeDashoffset = pathLength;
          curvePath.getBoundingClientRect(); // Trigger a reflow to apply the initial dash offset
          
-         // Animate appearance
+         // Animate appearance and disappearance simultaneously
          curvePath.animate([
-             { strokeDashoffset: pathLength },
-             { strokeDashoffset: 0 }
+             { strokeDashoffset: pathLength, opacity: 1 },
+             { strokeDashoffset: 0, opacity: 1 },
+             { strokeDashoffset: -pathLength, opacity: 0 }
          ], {
-             duration: 500,
+             duration: 850,
              easing: 'ease-out',
              fill: 'forwards'
          }).onfinish = () => {
-             // Animate disappearance after appearance is complete
-                 curvePath.animate([
-                     { strokeDashoffset: 0 },
-                     { strokeDashoffset: -pathLength }
-                 ], {
-                     duration: 150,
-                     easing: 'ease-in',
-                     fill: 'forwards'
-                 }).onfinish = () => {
-                     curvePath.remove(); // Remove the curve after animation
-                 };
+             curvePath.remove(); // Remove the curve after animation
          };
      }
 

@@ -9,9 +9,8 @@ meta_title: The Hyperlabs
 hero:
   enabled: true
   heading: "World's First Bitcoin Developers"
-  sub_heading: "Those who build on Bitcoin, sculpt the currency of the future. <br/> Join us."
+  sub_heading: "Those who build on Bitcoin,</br>sculpt the currency of the future. <br/> Join us."
   text_color: "#FFFFFF"
-  background_color: "#222831"
   show_svg_map: true
 #  background_gradient: true
   #background_image: "/assets/images/gen/home/bg2.webp"
@@ -93,7 +92,7 @@ projects:
 
 outro:
   enabled: true
-  align: left
+  align: center
   image: false
   heading: "Ready to get started?"
   sub_heading: "Contact us today for a free quote!"
@@ -106,7 +105,7 @@ outro:
         fa_icon: false
         size: "normal"
         outline: false
-        style: "primary"
+        style: "light"
 
 posts:
   enabled: false

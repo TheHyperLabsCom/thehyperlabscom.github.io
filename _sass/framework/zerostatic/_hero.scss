@@ -6,8 +6,14 @@
   flex-direction: row;
   background-color: var(--color-base-2);
   min-height: 300px;
+
+  [class*="col-"] {
+    padding:0;
+  }
+
   &.hero-gradient {
-    background-image: linear-gradient(to right, var(--color-primary-bg), var(--color-primary-bg-3));
+    background-image: linear-gradient(to right, var(--color-gradient-start), var(--color-gradient-end));
+    border-bottom: var(--color-base-bg-3) 1px solid;
   }
   &.hero-fullscreen-desktop {
     @include media-breakpoint-up(md) {
@@ -34,6 +40,14 @@
     @include media-breakpoint-up(md) {
       display: block;
     }
+    svg {
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      width: 60%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+    }
   }
   
   .container {
@@ -49,7 +63,7 @@
     h1 {
       margin-bottom: 20px;
       color: inherit;
-      font-weight: 600;
+      font-weight: 900;
       font-size: 56px;
     }
     p {

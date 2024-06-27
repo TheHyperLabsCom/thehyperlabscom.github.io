@@ -103,16 +103,18 @@ colors:
 
   # dark-mode colors
   primary_bg_dark: "#EEEEEE"
-  primary_bg_2_dark: "#2D4059"
+  primary_bg_2_dark: "#131416"
   primary_bg_3_dark: "#F17300"
   primary_text_dark: "#222831"
-  base_bg_dark: "#222831"
-  base_bg_2_dark: "#2D4059"
+  base_bg_dark: "#131416"
+  base_bg_2_dark: "#131416"
   base_bg_3_dark: "#F17300"
   text_dark: "#EEEEEE"
   text_2_dark: "#EEEEEE"
   logo_text_dark: "#EEEEEE"
   header_text_dark: "#EEEEEE"
+  gradient_start: "#320D6D"
+  gradient_end: "#F17300"
 
 
 fonts:
@@ -131,7 +133,7 @@ logo:
   logo_image_invert: assets/images/logo/logo.png
   logo_image_invert_mobile: assets/images/logo/logo-mobile.png
   logo_image_desktop_height: "auto"
-  logo_image_desktop_width: "300px"
+  logo_image_desktop_width: "275px"
   logo_image_mobile_height: "35px"
   logo_image_mobile_width: "auto"
   show_logo_image_on_mobile: true
@@ -185,6 +187,7 @@ contact_form:
 menu: 
   show_dropdown_items_in_mobile_menu: false
   show_social_media_in_mobile_menu: true
+  
 
 footer:
   enable_footer: true # show/hide the entire footer
