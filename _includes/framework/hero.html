@@ -14085,9 +14085,8 @@
  }
  }
  
- function changeColor() {
-     const randomId = nodeIds.pop();
-     const randomElement = document.getElementById(`path${randomId}`);
+ function changeColor(randomElement) {
+
      if (randomElement) {
          randomElement.style.fill = '#FF9900'; // Orange color
 
@@ -14129,6 +14128,67 @@
      }
  }
 
+ function drawCurveBetweenNodes(node1, node2) {
+         const svgNS = "http://www.w3.org/2000/svg";
+         const worldMap = document.getElementById("world-map");
+
+         // Get coordinates of the nodes
+         const node1Transform = node1.parentElement.getAttribute("transform").match(/translate\(([^,]+),([^)]+)\)/);
+         const node2Transform = node2.parentElement.getAttribute("transform").match(/translate\(([^,]+),([^)]+)\)/);
+         const x1 = parseFloat(node1Transform[1]);
+         const y1 = parseFloat(node1Transform[2]);
+         const x2 = parseFloat(node2Transform[1]);
+         const y2 = parseFloat(node2Transform[2]);
+
+         // Adjust coordinates based on viewBox size and main SVG transform
+         const viewBox = worldMap.getAttribute("viewBox").split(" ");
+         const viewBoxWidth = parseFloat(viewBox[2]);
+         const viewBoxHeight = parseFloat(viewBox[3]);
+         const adjustedX1 = x1 * (2100 / viewBoxWidth) * 1.25;
+         const adjustedY1 = (y1 * (1312.5 / viewBoxHeight) * -1.25) + 1312.5;
+         const adjustedX2 = x2 * (2100 / viewBoxWidth) * 1.25;
+         const adjustedY2 = (y2 * (1312.5 / viewBoxHeight) * -1.25) + 1312.5;
+
+         // Create the curve path
+         const curvePath = document.createElementNS(svgNS, "path");
+         const d = `M ${adjustedX1},${adjustedY1} C ${(adjustedX1 + adjustedX2) / 2},${adjustedY1 - 100} ${(adjustedX1 + adjustedX2) / 2},${adjustedY2 + 100} ${adjustedX2},${adjustedY2}`;
+         curvePath.setAttribute("d", d);
+         curvePath.setAttribute("stroke", "#ffbf00");
+         curvePath.setAttribute("stroke-width", "2");
+         curvePath.setAttribute("fill", "none");
+         worldMap.appendChild(curvePath);
+
+         // Animate the curve appearance and disappearance
+         const pathLength = curvePath.getTotalLength();
+         curvePath.style.strokeDasharray = pathLength;
+         curvePath.style.strokeDashoffset = pathLength;
+         curvePath.getBoundingClientRect(); // Trigger a reflow to apply the initial dash offset
+         
+         // Animate appearance
+         curvePath.animate([
+             { strokeDashoffset: pathLength },
+             { strokeDashoffset: 0 }
+         ], {
+             duration: 500,
+             easing: 'ease-out',
+             fill: 'forwards'
+         }).onfinish = () => {
+             // Animate disappearance after appearance is complete
+                 curvePath.animate([
+                     { strokeDashoffset: 0 },
+                     { strokeDashoffset: -pathLength }
+                 ], {
+                     duration: 150,
+                     easing: 'ease-in',
+                     fill: 'forwards'
+                 }).onfinish = () => {
+                     curvePath.remove(); // Remove the curve after animation
+                 };
+         };
+     }
+
+
+ var interval = 500;
  var nodeIds = []
  function startColorChange() {
      const minId = 22;
@@ -14138,8 +14198,29 @@
          nodeIds.push(i)
 
      shuffle(nodeIds)
-     setInterval(changeColor, 10);
- }
+     
+     function executeChangeColor() {
+         const randomId = nodeIds.pop();
+         const randomElement = document.getElementById(`path${randomId}`);
+         changeColor(randomElement);
+         
+         if(nodeIds.length <= 0)
+          return
+         
+         const randomIndex = Math.floor(Math.random() * nodeIds.length);
+         const randomId2 = nodeIds[randomIndex];
+         const randomElement2 = document.getElementById(`path${randomId2}`);
+
+         drawCurveBetweenNodes(randomElement, randomElement2)
+         
+         interval = interval - 15
+         interval = Math.max(interval, 1);
+        setTimeout(executeChangeColor, interval);
+     }
+     setTimeout(executeChangeColor, interval);
+    }
+
+ 
 
  window.onload = startColorChange;
  </script>
