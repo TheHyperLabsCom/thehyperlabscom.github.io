@@ -67,7 +67,7 @@ intro:
 
 outro:
   enabled: true
-  align: left
+  align: center
   image: false
   heading: "Ready to get started?"
   sub_heading: "Contact us today for a free quote!"
@@ -80,5 +80,5 @@ outro:
         fa_icon: false
         size: "normal"
         outline: false
-        style: "primary"
+        style: "light"
 ---

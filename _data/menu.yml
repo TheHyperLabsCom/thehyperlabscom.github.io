@@ -6,8 +6,8 @@ main:
     url: /projects/
     weight: 2
     child:
-      - name: "Fairide"
-        url: /projects/fairide/
+      - name: "GoHyper"
+        url: /projects/goHyper/
       - name: "My-Super.App Self Managed Superfund"
         url: /projects/mysuperapp/
       - name: "Bitcoin Imperial"

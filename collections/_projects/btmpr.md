@@ -44,6 +44,6 @@ Bitcoin Imperial Wallet is revolutionizing the way you interact with Bitcoin. Ou
 ### Features:
 - **Best Price Arbitrage Exchange:** Access competitive Bitcoin prices across various platforms.
 - **User-First Wallet:** Our wallet prioritizes user experience, making Bitcoin transactions seamless with the Lightning Network.
-- **Supporting Innovations:** Proud backers of Fairide and MySuper App, we facilitate earning and protecting wealth with Bitcoin.
+- **Supporting Innovations:** Proud backers of GoHyper and MySuper App, we facilitate earning and protecting wealth with Bitcoin.
 
 Join us in reshaping the financial landscape, where Bitcoin is not just an asset but a cornerstone of everyday financial management and long-term investment strategies.
