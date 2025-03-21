@@ -1,6 +1,12 @@
 source "https://rubygems.org"
 
+gem "kramdown-parser-gfm"
+gem "webrick"
+gem "csv"
+gem "bigdecimal"
+gem "base64"
+gem "logger"
 gem 'jekyll-environment-variables'
 gem 'jekyll-paginate'
-gem "webrick", "~> 1.7"
-gem "jekyll", "~> 4.3"
+
+gemspec
